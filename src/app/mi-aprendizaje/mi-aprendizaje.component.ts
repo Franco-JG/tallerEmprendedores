@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./mi-aprendizaje.component.css']
 })
 export class MiAprendizajeComponent {
-
+  numCursos: number[] = Array(10).fill(0).map((_, index) => index + 1);
 }

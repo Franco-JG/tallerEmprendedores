@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { CursoComponent } from './curso/curso.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MiAprendizajeComponent } from './mi-aprendizaje/mi-aprendizaje.component';
+import { ForoComponent } from './foro/foro.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MiAprendizajeComponent } from './mi-aprendizaje/mi-aprendizaje.componen
     LoginComponent,
     CursoComponent,
     NotFoundComponent,
-    MiAprendizajeComponent
+    MiAprendizajeComponent,
+    ForoComponent
   ],
   imports: [
     BrowserModule,

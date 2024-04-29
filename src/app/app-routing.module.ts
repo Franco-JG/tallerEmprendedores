@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { CursoComponent } from './curso/curso.component';
 import { MiAprendizajeComponent } from './mi-aprendizaje/mi-aprendizaje.component';
+import { ForoComponent } from './foro/foro.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'mis-cursos',
     component: MiAprendizajeComponent
+  },
+  {
+    path: 'foro',
+    component: ForoComponent
   },
   {
     path: '**',

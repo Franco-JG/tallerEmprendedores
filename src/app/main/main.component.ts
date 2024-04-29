@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 
 @Component({
   selector: 'app-main',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
-    numCards: number[] = Array(10).fill(0)
+    numCards: number[] = Array(10).fill(0).map((_, index) => index + 1);
 }

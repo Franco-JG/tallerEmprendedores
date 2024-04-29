@@ -1,2 +1,16 @@
 <app-toolbar></app-toolbar>
-<h1>mi-aprendizaje works!</h1>
+<h2>Continua aprendiendo</h2>
+<div class="card mb-3 border border-primary" style="max-width: 100%;" *ngFor="let curso of numCursos">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://picsum.photos/400/200" class="img-fluid rounded-start" alt="...">
+      </div>
+    <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Taller de Emprendores</h5>
+          <p class="card-text">Esta asignatura aporta al estudiante, las bases para analizar el ecosistema emprendedor y el proceso de un emprendimiento; así como las herramientas necesarias para planear, elaborar y ejecutar un proyecto tecnológico, considerando los aspectos éticos, financieros y legales.</p>
+          <p class="card-text"><small class="text-body-secondary">Última actualizacion hace 1 hora</small></p>
+        </div>
+      </div>
+    </div>
+</div>
